@@ -8,22 +8,41 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #30445f;
     color: white;
 }
 
 .bodyTop {
+
+    border-style: solid;
     border-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #30445f;
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block-Title {
+    font-size: 48px;
+    font-weight:700;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.block-body {
+    color: #E5E7Eb;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+
 }
 
 .topBlockText {
     width: 300px;
+
 }
 
 
