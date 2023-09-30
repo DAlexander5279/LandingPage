@@ -11,7 +11,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 200px;
     background-color: #30445f;
     color: white;
 }
@@ -22,6 +22,11 @@ header{
     gap: 16px;
     margin: 0;
     
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
 }
 
 a {
