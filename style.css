@@ -14,9 +14,6 @@ header{
 }
 
 .bodyTop {
-
-    border-style: solid;
-    border-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,11 +22,25 @@ header{
     padding-bottom: 50px;
 }
 
+.container {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+    width: 700px;
+}
+.spacer {
+    flex: 1;
+
+    border-style: solid;
+    border-color: black;
+}
+
 .block-Title {
     font-size: 48px;
     font-weight:700;
     color: #f9faf8;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .block-body {
@@ -38,6 +49,12 @@ header{
     margin-top: 0;
     margin-bottom: 0;
 
+}
+.code-Image {
+    max-height: 50%;
+    max-width: 50%;
+    height: auto;
+    flex: 1;
 }
 
 .topBlockText {
