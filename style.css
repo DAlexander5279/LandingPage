@@ -64,6 +64,10 @@ header {
 
 .topBlockText {
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
 
 }
 
@@ -76,6 +80,15 @@ header {
 
 }
 
+.list-code-Image{
+    border-style: solid;
+    border-color: #30445f;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
 .logo {
     height: 30px;
     width: 30px;
@@ -95,6 +108,17 @@ a {
     border-style: solid;
     border-color: black;
 }
+.image-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.body-header{
+    font-weight: 700;
+    font-size: 20px;
+}
 
 .container-colomn {
 
@@ -109,4 +133,17 @@ a {
     width: 700px;
 
 
+}
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stack-text{
+    width: 100px;
+    font-size: 18px;
+    color: #3d3d3d;
+    text-align: center;
 }
