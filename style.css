@@ -21,23 +21,16 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    border-style: solid;
-    border-color: black;
 }
 
 .container {
     display: flex;
-    border-style: solid;
-    border-color: black;
     justify-content: space-between;
     width: 700px;
 }
 
 .spacer {
     flex: 1;
-
-    border-style: solid;
-    border-color: black;
 }
 
 .block-Title {
@@ -115,16 +108,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: solid;
-    border-color: black;
 }
 .image-list {
     list-style: none;
     display: flex;
     gap: 30px;
     padding: 0;
-    border-style: solid;
-    border-color: black;
 
 }
 
@@ -140,8 +129,6 @@ a {
 
     align-items: center;
     justify-content: center;
-    border-style: solid;
-    border-color: black;
     justify-content: space-between;
     width: 700px;
 
@@ -181,9 +168,46 @@ a {
     font-weight: 900;
     font-size: 30px;
     margin-top: 0;
+    padding-bottom: 20px;
 }
 
 .footer {
     display: flex;
+}
+
+
+.container-footer{
+    display: flex;
+    width: 700px;
+
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #3882f6;
+    margin: 50px 0px;
+    padding: 40px 0px;
+    border-radius: 10px;
     
+}
+
+.saul-text {
+    padding: 0;
+    margin: 0;
+    color: white;
+
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.saul-quote{
+    margin: 0;
+    font-size: 18px;
+    color: #d6d6d6;
+}
+
+
+.container-footer .sign-up {
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
 }
