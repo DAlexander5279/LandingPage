@@ -182,3 +182,8 @@ a {
     font-size: 30px;
     margin-top: 0;
 }
+
+.footer {
+    display: flex;
+    
+}
